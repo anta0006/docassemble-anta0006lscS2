@@ -4,7 +4,7 @@ question: Welcome to DriveWise!
 subquestion: |
   **DISCLAIMER:**
   
-  DriveWise has been made to help provide information on drink driving charges in South Australia. All information is for guiding purposes and should not be taken as legal advice. We cannot promise that everything provided by DriveWise is completely accurate, current, or covers everything you need to know. None of the included content constitutes legal advice. DriveWise is not liable for any losses suffered from using the app.
+  DriveWise has been made to help with drink driving charges in South Australia. All information is for guiding purposes and should not be taken as legal advice. We         cannot promise that everything provided by DriveWise is completely accurate, current, or covers everything you need to know. DriveWise is not to blame for any losses suffered from using this app.
   
   If you are looking for free legal advice in South Australia, please call [1300 366 424](tel:1300 366 424).
 field: LSC_welcome_screen
@@ -22,7 +22,7 @@ fields:
 ---
 question: Welcome to DriveWise
 subquestion: |
-  Have you been charged with some other sort of offence? 
+  Have you instead been charged with a different offence? 
 fields: 
   - no label: LSC_charged_with_other
     datatype: yesnoradio
@@ -45,9 +45,9 @@ buttons:
   - Exit: exit 
   - Restart: restart
 ---
-question: It looks like you have been charged with an non-drink-driving offence
+question: You have shown you have been charged with a different offence.
 subquestion: |
-  If you are looking for information about different legal issues, please click [here](https://lsc.sa.gov.au/cb_pages/publications.php) to be directed to the Legal Services Commission website for further help.
+  If you are looking for information about different legal issues, please click [here](https://lsc.sa.gov.au/cb_pages/publications.php) to be directed to the Legal Services Commission website for   further help.
 field: LSC_directory_Screen
 buttons: 
   - Proceed: proceed
@@ -55,13 +55,13 @@ buttons:
 ---
 question: What is the drink driving offence you have been charged with?
 subquestion: |
-  If you would like to know more about how your drink driving charge will affect you, please select which of the following you have been charged with.
+  If you would like to know more about how your drink driving charge will effect you, please select which of the following you have been charged with.
 fields: 
   - no label: LSC_define_charge
     datatype: radio
     choices:
       - Driving Under the Influence (DUI): LSC_DUI
-      - Exeeding the Prescribed Concentration of Alcohol (PCA): LSC_PCA
+      - Exeeded Prescribed Concentration of Alcohol (PCA): LSC_PCA
       - Refusing a Breath Test: LSC_RT 
 ---
 # DUI SCREENS - KYLA
@@ -82,16 +82,13 @@ fields:
 ---
 question: Penalties for Subsequent Driving Under the Influence Charge
 subquestion: |
-  For repeat DUI offences, you'll face a fine ranging from $1900 to $2900, 6 demerit points, and a possible imprisonment of up to 6 months. If convicted, you'll be disqualified from driving for at least 36 months. 
-  
-  This offence is serious enough that you'll have to get an alcohol interlock device installed in your vehicle for the same duration as your license disqualification period or for 36 months (whichever is shorter).
-  
-  This device is about the size of a smartphone and will be attached to your car. You're responsible for all the costs involved in installing and maintaining it. There are strict rules for using the device, and breaking any of them is considered an offense. 
-  
-  You'll be given the specific conditions beforehand, but if you want more information about this, click here.
-  
-  Click **proceed** for further steps and helpful resources.
+  If this is not the first time you have been charged with a DUI offence, then you will be fined between $1900 and $2900.
  
+  Or, you may face up to 3 months imprisonment and get 6 demerit points.
+ 
+  If you are convicted, you will be disqualified from driving for a minimum of 36 months.
+  
+  Please click **proceed** to view next steps and important resources that may be able to assist you. 
 
 field: LSC_subsequent_offence_no_c
 buttons: 
